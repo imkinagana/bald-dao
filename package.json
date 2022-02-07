@@ -1,18 +1,19 @@
 {
-  "name": "mydao",
-  "version": "0.1.0",
+  "name": "balddao",
+  "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": ">=16.0.0"
+    "node": "14.0.0"
   },
   "dependencies": {
     "@3rdweb/hooks": "^1.6.0",
     "@3rdweb/sdk": "^1.27.1",
-    "dotenv": "^10.0.0",
+    "dotenv": "^16.0.0",
     "ethers": "^5.5.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.0"
+    "react-scripts": "^5.0.0",
+    "util": "^0.12.4"
   },
   "scripts": {
     "start": "react-scripts start",
